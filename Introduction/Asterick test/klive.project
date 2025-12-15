@@ -1,6 +1,6 @@
 {
   "kliveVersion": "0.51.1",
-  "machineType": "sp128",
+  "machineType": "sp48",
   "clockMultiplier": 1,
   "soundLevel": 0.5,
   "soundMuted": false,
@@ -16,18 +16,11 @@
     "theme": "dark"
   },
   "debugger": {
-    "breakpoints": [
-      {
-        "resource": "code/code.kz80.asm",
-        "line": 3,
-        "exec": true,
-        "ioMask": 65535
-      }
-    ]
+    "breakpoints": []
   },
   "builder": {
     "roots": [
-      "code/PRINT99.bas"
+      "code/code.kz80.asm"
     ]
   },
   "settings": {
@@ -37,9 +30,9 @@
   },
   "exportDialog": {
     "formatId": "tzx",
-    "exportName": "PRINT99",
-    "exportFolder": "D:\\Callum\\Documents\\GitHub\\Z80-Assembly\\Introduction\\Loading an assembly program\\SavedFiles",
-    "programName": "PRINT99",
+    "exportName": "asterisk",
+    "exportFolder": "D:\\Callum\\Documents\\GitHub\\Z80-Assembly\\Introduction\\Asterick test",
+    "programName": "asterisk",
     "screenFilename": "",
     "startBlock": true,
     "addClear": true,
@@ -55,25 +48,8 @@
       "showSpectrumFont": true
     },
     "docsWorkspace": {
-      "documents": [
-        {
-          "type": "CodeEditor",
-          "id": "D:/Callum/Documents/GitHub/Z80-Assembly/Introduction/Loading an assembly program/code/PRINT99.bas",
-          "position": {
-            "line": 7,
-            "column": 45
-          }
-        },
-        {
-          "type": "CodeEditor",
-          "id": "D:/Callum/Documents/GitHub/Z80-Assembly/Introduction/Loading an assembly program/code/code.kz80.asm",
-          "position": {
-            "line": 1,
-            "column": 10
-          }
-        }
-      ],
-      "activeDocumentId": "D:/Callum/Documents/GitHub/Z80-Assembly/Introduction/Loading an assembly program/code/PRINT99.bas"
+      "documents": [],
+      "activeDocumentId": "D:/Callum/Documents/GitHub/Z80-Assembly/Introduction/Asterick test/code/code.kz80.asm"
     },
     "Disassembly": {
       "topAddress": 4271,
