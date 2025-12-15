@@ -5,7 +5,9 @@
   "soundLevel": 0.5,
   "soundMuted": false,
   "savedSoundLevel": 0.5,
-  "media": {},
+  "media": {
+    "tape": "D:\\Callum\\Documents\\GitHub\\Z80-Assembly\\Introduction\\Loading an assembly program\\SavedFiles\\PRINT99.tzx"
+  },
   "machineSpecific": {},
   "ide": {
     "excludedProjectItems": []
@@ -14,22 +16,34 @@
     "theme": "dark"
   },
   "debugger": {
-    "breakpoints": []
+    "breakpoints": [
+      {
+        "resource": "code/code.kz80.asm",
+        "line": 2,
+        "exec": true,
+        "ioMask": 65535
+      }
+    ]
   },
   "builder": {
     "roots": [
-      "code/code.kz80.asm"
+      "code/PRINT99.bas"
     ]
   },
+  "settings": {
+    "zxbasic": {
+      "executablePath": "E:\\Programs\\zxbasic\\zxbc.exe"
+    }
+  },
   "exportDialog": {
-    "formatId": "tap",
-    "exportName": "",
-    "exportFolder": "",
-    "programName": "",
+    "formatId": "tzx",
+    "exportName": "PRINT99",
+    "exportFolder": "D:\\Callum\\Documents\\GitHub\\Z80-Assembly\\Introduction\\Loading an assembly program\\SavedFiles",
+    "programName": "PRINT99",
     "screenFilename": "",
     "startBlock": true,
     "addClear": true,
-    "addPause": false,
+    "addPause": true,
     "singleBlock": false,
     "startAddress": ""
   },
@@ -44,22 +58,22 @@
       "documents": [
         {
           "type": "CodeEditor",
-          "id": "/Users/callum/Documents/VS Projects/Z80 Assembly/Loading an assembly program/code/code.kz80.asm",
+          "id": "D:/Callum/Documents/GitHub/Z80-Assembly/Introduction/Loading an assembly program/code/PRINT99.bas",
           "position": {
-            "line": 2,
-            "column": 4
+            "line": 7,
+            "column": 19
           }
         },
         {
           "type": "CodeEditor",
-          "id": "/Users/callum/Documents/VS Projects/Z80 Assembly/Loading an assembly program/code/program.bas",
+          "id": "D:/Callum/Documents/GitHub/Z80-Assembly/Introduction/Loading an assembly program/code/code.kz80.asm",
           "position": {
-            "line": 0,
-            "column": 0
+            "line": 2,
+            "column": 4
           }
         }
       ],
-      "activeDocumentId": "/Users/callum/Documents/VS Projects/Z80 Assembly/Loading an assembly program/code/program.bas"
+      "activeDocumentId": "D:/Callum/Documents/GitHub/Z80-Assembly/Introduction/Loading an assembly program/code/code.kz80.asm"
     },
     "Disassembly": {
       "topAddress": 4271,
